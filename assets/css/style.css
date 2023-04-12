@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../imgs/wallpaper.jpg");
+    background-repeat: repeat;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-color: transparent;
+}
+
+.div-style {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-title {
+    font-family: fantasy;
+}
+
+.img-digi {
+    width: 400px;
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 2%;
+}
+
+.buscador-style {
+    margin-left: auto;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid rgb(19, 104, 241);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.card-title {
+    font-size: 25px;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    display: flex;
+    text-align: justify;
+}
+
+.card-btn {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    border: 5px solid rgb(19, 104, 241);
+    border-radius: 10px;
+}
+
+.navbar {
+    border-bottom: 5px solid rgb(19, 104, 241);
+}

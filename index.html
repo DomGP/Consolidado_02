@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digimon</title>
+  <link rel="icon" href="assets/imgs/Digivice_tri.webp">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid  ms-3">
+      <a class="navbar-brand" href="#"><img src="assets/imgs/tai.png" alt="Digimon" width="35" height="30"> Digimon
+        Adventure</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://www.youtube.com/watch?v=XFEUXjx7Zb4&list=PLpCd8KvOb2fuR2Q0KL1WehfS7559hp8kV">Soundtrack</a>
+          </li>
+        </ul>
+        <div class="buscador-style">
+          <form class="d-flex" role="search" id="form">
+            <input class="form-control me-2" type="text" placeholder="Buscar Digimon..." aria-label="Search"
+              id="search">
+            <button class="btn btn-outline-primary " id="buscador-resultado" type="submit">Buscar</button>
+            <button class="btn btn-outline-primary ms-2 me-4" id="reset" type="reset">Reset</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Digimon Adventure</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="img-digi" src="assets/imgs/DigimonCard.webp" alt="">
+          <p>El 1 Agosto de 1999, Siete niños de Japón (Tai Kamiya , Matt ishida , Tk Takaishi , Sora Takenouchi , Izzy
+            Izumi , Mimi Tachikawa y Joe Kido ) de repente son enviados a una extraña dimensión llamada Digimundo
+            mientras ellos estaban en el Campamento de Verano. Durante su aventura, Los niños descubren que ellos están
+            en una isla donde criaturas digitales llamadas Digimon habitan. Haciendose amigos de otros 7 Digimon , Los
+            niños aprenden que ellos poseen la habilidad para digievolucionar, haciendo que sus Digimon se vuelvan màs
+            grandes y fuertes y asì son capaces de combatir a otros Digimon enemigos. Mientras avanza la trama el octavo
+            niño elegido (Kari Kamiya ) se les unira al grupo. Comenzando su viaje,los niños comienzan a buscar una
+            manera de como regresar a su mundo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-digimon">
+    <div class="container">
+      <div class="row div-style" id="digimon-cards">
+      </div>
+    </div>
+  </div>
+
+  <!-- BOOTSTRAP -->
+  <script src="assets/js/logica.js"></script>
+
+</body>
+
+</html>
